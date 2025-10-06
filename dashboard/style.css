@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 60px 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar content";
+  height: 100vh;
+  background-color: black;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgb(141, 73, 73);
+  color: white;
+  padding: 20px;
+  
+  display: grid;
+}
+
+.sidebar nav a:hover{
+  box-shadow: gray;
+  background-color: rgb(100, 98, 98);
+  border-radius: 25px;
+  
+}
+.sidebar h2 {
+  margin-bottom: 20px; 
+}
+
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.header {
+  
+  background:white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header input{
+  border-radius: 25px;
+}
+
+.content {
+  grid-area: content;
+  padding: 20px;
+  
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  display: flex;
+  gap: 20px;
+  gap: 250px;
+  height: 100px;
+  width: 120px;
+}
+
+ 
+   
+  
+
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.content div one{
+  display: flex;
+}

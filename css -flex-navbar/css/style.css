@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    
+    
+
+    
+}
+
+.wrap{
+    padding: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    background-color: white;
+}
+
+.search input{
+    width: 350px;
+    padding: 8px;
+    border-radius:70px ;
+    border: 3px solid rgb(250, 237, 237);
+    font-size: medium;
+    font-weight: 200;
+    height: auto;
+    background-color: rgb(255, 250, 250);
+    color:rgb(8, 6, 6);
+    margin-top: 5px;
+    padding-top: 2px;
+}
+
+.flex{
+    display: flex;
+    margin-left: 80px;
+    gap: 8px;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-right: 30px;
+    
+
+}
+
+
+
+.flex a{
+    text-decoration: none;
+    color: rgb(35, 35, 144);
+    
+}
+
+.one{
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+    
+}
+.one a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.three{
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 8px;
+    display: flex;
+    gap: 30px;
+    width: 10px;
+    height: 50px;
+    
+
+}
+.photo{
+    padding-top: 200px;
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+    width: 10px;
+    height: 50px;
+    text-align: center;
+    
+
+}
+
+.cart{
+    margin-top: 50px;
+    padding-left: 20px;
+    
+}
+
+.shorts{
+
+padding: 20px;
+padding-left: 30px;
+display: flex;
+gap: 10px;
+width: 318px;
+height: 318px;
+text-align: center;
+border: 7px solid white;
+border-radius: 15px;
+}
+
+.shorts button{
+
+   border-top: 10px;
+   border: 3px solid rgb(197, 195, 195);
+   border-radius: 40px;
+   box-sizing: content-box;
+   background-color: white;
+   color: rgb(215, 10, 78);
+
+
+}
+
+.offer{
+
+    display: flex;
+    padding-bottom: 30px;
+    margin-top: 150px;
+    width: 318px;
+    margin-left: 30px;
+    gap: 40px;
+}
+
+.round{
+
+    display: flex;
+margin-top: 10px;
+gap: 60px;
+    padding-top: 5px;
+    width: 116px;
+    height: 130px;
+    margin-right: 30px;
+    text-align: center;
+    
+    
+}
+.margin{
+    margin-left: 85px;
+}
+
+.slide{
+display: flex;
+margin-top: 45px;
+margin-left: 20px;
+
+}
+
+.center1 h2{
+    margin-top: 30px;
+    padding-left: 30px;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-weight: 700px;
+}
+.gym{
+    display: flex;
+    padding-left: 10px;
+    margin-left: 15px;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+
+}
+
+.trends{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.center h3{
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.down h2{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+.brand{
+    display: flex;
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.parrenbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.bigbox {
+    display: flex;
+   background-color: rgb(32, 32, 248);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1485px;
+    height: 330px;
+    margin-top: 200px;
+    margin-left: 30px;
+    border: 8px solid yellow;
+    border-radius: 35px;
+    padding-top: 110px;
+    padding-left: 70px;
+    text-align: left;
+    gap: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-style: initial;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding: 60px;
+
+
+
+
+}
+
+.cycle {
+    border: 1px dotted white;
+    padding: 30px;
+    width: 290px;
+    height: 140px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    gap: 4px;
+
+
+
+}
+
+.style {
+    border: 1px dotted white;
+    padding: 10px;
+    width: 290px;
+    height: 140px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    text-align: start;
+} 
+.cycle input{
+margin-top: 240px;
+text-align: center;
+width: 350px;
+height: 40px;
+border-radius: 25px;
+border: 3px solid white;
+font-weight: 600px;
+color: rgb(155, 185, 7);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
