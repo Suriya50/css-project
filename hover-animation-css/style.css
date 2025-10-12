@@ -1,0 +1,126 @@
+.click{
+    background-color: black;
+    color: white;
+    padding: 5px;
+   margin-right: 10px;
+    border-radius: 5px;
+    transition:  3s ease;
+
+}
+
+.five{
+    background-color: black;
+    color: white;
+    padding: 5px;
+   align-items: center;
+   margin-left: 10px;
+    border-radius: 5px;
+     border-radius: 5px;
+    transition:  2s ease;
+
+
+}
+.click:hover{
+    background-color: rgb(250, 107, 50);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    
+    
+}
+
+.five:hover{
+    background-color: rgb(232, 33, 216);
+    color: white;
+    border: 2px solid rgb(161, 79, 238);
+     height: 40px;
+    width: 80px;
+    
+}
+.move{
+    height: 100px;
+    width: 160px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    margin-left: 40%;
+    margin-top: 50px;
+    transition: 1.1s;
+   
+}
+.move:hover{
+    height: 200px;
+    width: 200px;
+    color: rgb(244, 244, 245);
+    border-radius: 50%;
+    background-color: blue;
+    transition: 2s;
+}
+
+.drag left{
+    height: 70px;
+    width: 100px;
+    
+}
+.drag left:hover{
+    transform: translateX(400px);
+    transform: 1.3s;
+}
+.dragr{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(160, 89, 226);
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 40%;
+    transition: 1.5;
+}
+.dragr:hover{
+    transform: translatex(400px);
+    transition: 2s;
+}
+
+.dragl{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(89, 119, 226);
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 40%;
+    transition: 1.5;
+}
+.dragl:hover{
+    transform: translatex(-400px);
+    transition: 2s;
+}
+
+.dragt{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(128, 226, 89);
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 40%;
+    transition: 1.5;
+}
+.dragt:hover{
+    transform: translatey(400px);
+    transition: 2s;
+}
+
+.dragd{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(19, 136, 128);
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 40%;
+    transition: 1.5;
+}
+.dragd:hover{
+    transform: translatey(-400px);
+    transition: 2s;
+}

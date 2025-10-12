@@ -1,0 +1,70 @@
+.parent{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: start;
+    margin-top: 30px;
+    
+    
+}
+
+.one{
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+
+    
+    
+
+}
+
+@media (max-width:1600px){
+    .one{
+        background-color: rgb(138, 10, 99);
+        color:aliceblue;
+    }
+}
+
+@media (max-width:1200px){
+    .one{
+        background-color:black;
+        color:black;
+    }
+}
+
+@media (max-width:1024px){
+    .one{
+        background-color:green;
+        color:white;
+    }
+}
+
+
+@media (max-width:768px){
+    .one{
+        background-color: black;
+        color: black;
+    }
+}
+
+@media (max-width:600px) {
+.one{
+    background-color: red;
+    color: blanchedalmond;
+}
+}
+
+@media (max-width:480px) {
+.one{
+    background-color: black;
+    color:black;
+}
+}
